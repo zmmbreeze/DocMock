@@ -1,0 +1,35 @@
+{
+  "name": "DocMock",
+  "version": "0.1.0",
+  "description": "Generate fake api from document, make your life easy.",
+  "preferGlobal": true,
+  "main": "./lib/index.js",
+  "bin": {
+    "blogin": "./bin/docMock"
+  },
+  "directories": {
+    "lib": "./lib",
+    "bin": "./bin"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zmmbreeze/DocMock"
+  },
+  "bugs": {
+    "url": "https://github.com/zmmbreeze/DocMock/issues"
+  },
+  "keywords": ["api", "mockup", "doc"],
+  "author": "MZhou <zmmbreeze0825@gmail.com> (http://mzhou.me)",
+  "license": {
+    "type": "MIT",
+    "url": ""
+  },
+  "dependencies": {
+    "connect": "2.6.x",
+    "marked": "0.2.x",
+    "moment": "1.7.x"
+  },
+  "engines": {
+    "node": ">=0.8"
+  }
+}

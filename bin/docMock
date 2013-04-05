@@ -1,0 +1,19 @@
+#!/usr/bin/env node
+
+var args = process.argv.slice(2);
+var commandName = args.shift();
+var commands = require('../lib/index');
+
+switch (commandName) {
+    case '-v':
+    case '--version':
+    case 'ver':
+    case 'version':
+        var version = require('../package.json').version;
+        console.log(version);
+        break;
+    default:
+        var command = commands[commandName] || commands.help;
+        command(args);
+        break;
+}
