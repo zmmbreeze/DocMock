@@ -27,7 +27,8 @@
   "dependencies": {
     "connect": "2.6.x",
     "marked": "0.2.x",
-    "moment": "1.7.x"
+    "moment": "1.7.x",
+    "commander": "0.1.x"
   },
   "engines": {
     "node": ">=0.8"
