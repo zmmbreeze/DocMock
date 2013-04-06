@@ -36,6 +36,11 @@ CONTENT:
     logo: %RANDOM_PIC('png', '24x24')%      // return a random 24x24 png format picture
     key: %RANDOM_TEXT(12, 15)%              // return random string, length between '12 - 15'
 
+CONTENT:
+
+    success: false,
+    message: 'ERROR'
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
