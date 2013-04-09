@@ -9,8 +9,9 @@ Some markdown syntax word.
 NAME: Create a ID card.
 DESCRIPTION: This is a description of api. Make it more clearly to developer. It's optional.
 URL: /data/card
-METHOD: POST
-PARAM:
+REQEUST:
+    METHOD: POST
+    PARAM:
 
     name: "string text"         // normal string
     weight[OPTION]: 52.1        // float number, it's optional
@@ -21,9 +22,10 @@ PARAM:
     picture2[OPTION]: %FILE('./pic2.png')%
     blog: %URL("http://nodejs.in")%     // url link
 
-TYPE: JSON  // content type: JSON | TEXT
-STATUS: 200 // OPTION. status code, default value is 200
-CONTENT:
+RESPONSE:
+    TYPE: JSON  // content type: JSON | TEXT
+    STATUS: 200 // OPTION. status code, default value is 200
+    CONTENT:
 
     success: true,
     id_card:
@@ -36,7 +38,9 @@ CONTENT:
     logo: %RANDOM_PIC('png', '24x24')%      // return a random 24x24 png format picture
     key: %RANDOM_TEXT(12, 15)%              // return random string, length between '12 - 15'
 
-CONTENT:
+RESPONSE:
+    TYPE: JSON  // content type: JSON | TEXT
+    CONTENT:
 
     success: false,
     message: 'ERROR'
