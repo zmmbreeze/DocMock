@@ -5,6 +5,7 @@ Some markdown syntax word.
 
 ##First Api
 
+%%%%%%%%%%%%%%%%%%%%
 NAME: Create a ID card.
 DESCRIPTION: This is a description of api. Make it more clearly to developer. It's optional.
 URL: /data/card
@@ -44,9 +45,12 @@ RESPONSE:
     success: false,
     message: 'ERROR'
 
+%%%%%%%%%%%%%%%%%%%%
+
 
 ##Other two api
 
+%%%%%%%%%%%%%%%%%%%%
 NAME: Get a ID card.
 URL: /data/card?id=%RANDOM_NUMBER(9, 12)%
 REQEUST:
@@ -73,4 +77,5 @@ RESPONSE:
             "success": true,
             "id": %NUMBER(PARAM('id'))%
         }
+%%%%%%%%%%%%%%%%%%%%
 
