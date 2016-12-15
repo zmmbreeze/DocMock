@@ -18,18 +18,19 @@
   "bugs": {
     "url": "https://github.com/zmmbreeze/DocMock/issues"
   },
-  "keywords": ["api", "mockup", "doc"],
+  "keywords": [
+    "api",
+    "mockup",
+    "doc"
+  ],
   "author": "MZhou <zmmbreeze0825@gmail.com> (http://mzhou.me)",
   "license": {
     "type": "MIT",
     "url": ""
   },
   "dependencies": {
-    "connect": "2.6.x",
-    "marked": "0.2.x",
-    "moment": "1.7.x",
-    "commander": "0.1.x",
-    "buffered-reader": "1.0.x"
+    "koa": "^1.2.4",
+    "moment": "^2.17.1"
   },
   "engines": {
     "node": ">=0.8"
