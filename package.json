@@ -34,5 +34,10 @@
   },
   "engines": {
     "node": ">=0.8"
+  },
+  "devDependencies": {
+    "koa": "^1.2.4",
+    "node-glob": "^1.2.0",
+    "vinyl-fs": "^2.4.4"
   }
 }
